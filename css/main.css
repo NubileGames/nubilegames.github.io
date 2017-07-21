@@ -1,0 +1,166 @@
+body {
+    background: #97D56C;
+    color: #3A792E;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #CCCCCC;
+}
+
+.header-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: -webkit-translate(-50%, -50%);
+    transform: -moz-translate(-50%, -50%);
+    transform: -ms-translate(-50%, -50%);
+}
+
+.header {
+    text-transform: uppercase;
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.coming-soon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.tm {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+ul.social {
+    list-style: none outside;
+    font-size: 30px;
+    text-align:  center;
+}
+
+ul.social li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+
+    .header {
+        font-size: 30px;
+    }
+
+    .tagline {
+        font-size: 20px;
+    }
+
+    .coming-soon {
+        font-size: 20px;
+    }
+
+    .tm {
+        font-size: 15px;
+    }
+
+    ul.social {
+        font-size: 25px;
+    }
+
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+
+    .header {
+        font-size: 50px;
+    }
+
+    .tagline {
+        font-size: 40px;
+    }
+
+    .coming-soon {
+        font-size: 20px;
+    }
+
+    .tm {
+        font-size: 35px;
+    }
+
+    ul.social {
+        font-size: 45px;
+    }
+
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+
+
+    .header {
+        font-size: 70px;
+    }
+
+    .tagline {
+        font-size: 60px;
+    }
+
+    .coming-soon {
+        font-size: 40px;
+    }
+
+    .tm {
+        font-size: 55px;
+    }
+
+    ul.social {
+        font-size: 65px;
+    }
+
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+
+    .header {
+        font-size: 90px;
+    }
+
+    .tagline {
+        font-size: 80px;
+    }
+
+    .coming-soon {
+        font-size: 60px;
+    }
+
+    .tm {
+        font-size: 75px;
+    }
+
+    ul.social {
+        font-size: 85px;
+    }
+
+}
