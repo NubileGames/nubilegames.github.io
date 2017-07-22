@@ -9,7 +9,7 @@ a {
 }
 
 a:hover {
-    color: #CCCCCC;
+    color: #3A792E;
 }
 
 .header-container {
@@ -35,6 +35,7 @@ a:hover {
     font-size: 70px;
     font-weight: bold;
     text-align: center;
+    font-style: italic;
 }
 
 .coming-soon {
@@ -52,15 +53,13 @@ a:hover {
     font-weight: normal;
 }
 
-ul.social {
-    list-style: none outside;
-    font-size: 30px;
-    text-align:  center;
+.social-container {
+    text-align: center;
 }
 
-ul.social li {
-    display: inline-block;
-    margin-right: 15px;
+.social {
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 /* SMARTPHONES PORTRAIT */
@@ -71,7 +70,7 @@ ul.social li {
     }
 
     .tagline {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .coming-soon {
@@ -82,7 +81,7 @@ ul.social li {
         font-size: 15px;
     }
 
-    ul.social {
+    .social {
         font-size: 25px;
     }
 
@@ -92,11 +91,11 @@ ul.social li {
 @media only screen and (min-width: 480px) {
 
     .header {
-        font-size: 50px;
+        font-size: 35px;
     }
 
     .tagline {
-        font-size: 40px;
+        font-size: 18px;
     }
 
     .coming-soon {
@@ -104,11 +103,11 @@ ul.social li {
     }
 
     .tm {
-        font-size: 35px;
+        font-size: 15px;
     }
 
-    ul.social {
-        font-size: 45px;
+    .social {
+        font-size: 35px;
     }
 
 }
@@ -118,23 +117,23 @@ ul.social li {
 
 
     .header {
-        font-size: 70px;
-    }
-
-    .tagline {
-        font-size: 60px;
-    }
-
-    .coming-soon {
-        font-size: 40px;
-    }
-
-    .tm {
         font-size: 55px;
     }
 
-    ul.social {
-        font-size: 65px;
+    .tagline {
+        font-size: 27px;
+    }
+
+    .coming-soon {
+        font-size: 30px;
+    }
+
+    .tm {
+        font-size: 20px;
+    }
+
+    .social {
+        font-size: 45px;
     }
 
 }
@@ -144,23 +143,23 @@ ul.social li {
 @media only screen and (min-width: 1024px) {
 
     .header {
-        font-size: 90px;
+        font-size: 65px;
     }
 
     .tagline {
-        font-size: 80px;
+        font-size: 33px;
     }
 
     .coming-soon {
-        font-size: 60px;
+        font-size: 40px;
     }
 
     .tm {
-        font-size: 75px;
+        font-size: 30px;
     }
 
-    ul.social {
-        font-size: 85px;
+    .social {
+        font-size: 55px;
     }
 
 }
